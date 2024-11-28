@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskRabbit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>TaskRabbit</h1>
+      <div class="inp">
+        <label for="uname">User name or Email</label>
+        <input
+          type="text"
+          name="uname"
+          id="uname"
+          placeholder="Enter name or email"
+        />
+      </div>
+      <div class="inp">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password"
+        />
+      </div>
+      <button onclick="signIn()">Sign In</button>
+      <button onclick="signUp()">Sign Up</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
